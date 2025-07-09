@@ -7,7 +7,7 @@ Install the necessary packages like diffusers, transformers, accelerate, and tor
 Import StableDiffusionPipeline from Hugging Face’s diffusers and PyTorch for tensor operations.
 
 3.Load the Pre-trained Model:
-Use from_pretrained("stable-diffusion-v1-5") to load the Stable Diffusion model.
+Use from_pretrained("runwayml/stable-diffusion-v1-5") to load the Stable Diffusion model.
 Choose computation device: GPU (if available) or CPU.
 
 4.Take User Prompt:
