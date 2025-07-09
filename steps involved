@@ -1,0 +1,24 @@
+Steps Involved:
+
+1.Install Required Libraries:
+Install the necessary packages like diffusers, transformers, accelerate, and torch to use the Stable Diffusion model.
+
+2.Import Modules:
+Import StableDiffusionPipeline from Hugging Face’s diffusers and PyTorch for tensor operations.
+
+3.Load the Pre-trained Model:
+Use from_pretrained("stable-diffusion-v1-5") to load the Stable Diffusion model.
+Choose computation device: GPU (if available) or CPU.
+
+4.Take User Prompt:
+Get a text description from the user using input() — this will be used to generate the image.
+
+5.Generate Image:
+Use pipe(prompt).images[0] to generate the image from the given text prompt.
+
+6.Display and Save Image:
+Show the generated image using .show()
+Save the image locally with .save("generated_image.png")
+
+
+
